@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.image-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-container {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.content-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.content-container .btn-container {
+    margin-top: 20px;
+}
